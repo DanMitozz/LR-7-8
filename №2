@@ -1,0 +1,5 @@
+a  = (input()[::-1])
+a = ((' ,' + a) * 3)
+a = a.replace(',',' ',1)[::-1]
+print(a)
+print(len(a))
